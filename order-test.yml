@@ -14,7 +14,7 @@ feign:
         connect-timeout: 10000
         read-timeout: 10000
 env:
-  test4
+  test5
 girl:
   name: lili
   age: 43
