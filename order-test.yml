@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: order_test
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
+      hikari:
+        username: root
+        password: root
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 10000
+        read-timeout: 10000
+env:
+  test4
+girl:
+  name: lili
+  age: 20
